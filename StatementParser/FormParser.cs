@@ -20,6 +20,7 @@ namespace StatementParser
         private void buttonParse_Click(object sender, EventArgs e)
         {
             String temp = "";
+            String parsedText = "";
             
             foreach (String line in textBoxOriginal.Lines)
             {
@@ -38,12 +39,14 @@ namespace StatementParser
                 {
                     temp = line;
                 }
-                else if (line.StartsWith("$"))
+                else if (line.StartsWith("$") || line.StartsWith("-$"))
                 {
                     decimal dollar = -1 * decimal.Parse(line.Replace("$", ""));
-                    textBoxParsed.AppendText(dollar.ToString() + "\t" + temp + Environment.NewLine);
+                    parsedText += dollar.ToString() + "\t" + temp + Environment.NewLine;
                 }
             }
+
+            textBoxParsed.Text = parsedText;
         }
     }
 }
