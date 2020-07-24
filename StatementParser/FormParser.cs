@@ -40,7 +40,8 @@ namespace StatementParser
                 }
                 else if (line.StartsWith("$"))
                 {
-                    textBoxParsed.AppendText(line.Replace("$", "") + "\t" + temp + Environment.NewLine);
+                    decimal dollar = -1 * decimal.Parse(line.Replace("$", ""));
+                    textBoxParsed.AppendText(dollar.ToString() + "\t" + temp + Environment.NewLine);
                 }
             }
         }

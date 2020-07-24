@@ -41,6 +41,7 @@
             this.textBoxOriginal.Location = new System.Drawing.Point(13, 13);
             this.textBoxOriginal.Multiline = true;
             this.textBoxOriginal.Name = "textBoxOriginal";
+            this.textBoxOriginal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxOriginal.Size = new System.Drawing.Size(600, 572);
             this.textBoxOriginal.TabIndex = 0;
             // 
@@ -51,6 +52,7 @@
             this.textBoxParsed.Location = new System.Drawing.Point(749, 13);
             this.textBoxParsed.Multiline = true;
             this.textBoxParsed.Name = "textBoxParsed";
+            this.textBoxParsed.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxParsed.Size = new System.Drawing.Size(600, 572);
             this.textBoxParsed.TabIndex = 1;
             // 
