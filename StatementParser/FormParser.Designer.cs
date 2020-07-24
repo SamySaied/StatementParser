@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormParser));
             this.textBoxOriginal = new System.Windows.Forms.TextBox();
             this.textBoxParsed = new System.Windows.Forms.TextBox();
             this.buttonParse = new System.Windows.Forms.Button();
@@ -72,6 +73,7 @@
             this.Controls.Add(this.buttonParse);
             this.Controls.Add(this.textBoxParsed);
             this.Controls.Add(this.textBoxOriginal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormParser";
             this.Text = "Statement Parser";
             this.ResumeLayout(false);

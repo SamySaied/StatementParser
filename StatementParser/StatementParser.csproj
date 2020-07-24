@@ -7,7 +7,7 @@
     <ProjectGuid>{43331FE2-CAB3-49BB-8661-DC35DBFFC21C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>StatementParser</RootNamespace>
-    <AssemblyName>StatementParser</AssemblyName>
+    <AssemblyName>RBC Credit Card Statement Parser</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>0c8f2589508a0ac71a45b3f4d9937382_OnR_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -78,6 +81,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0c8f2589508a0ac71a45b3f4d9937382_OnR_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
