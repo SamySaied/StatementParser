@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Statement Parser"
+    "\\StatementParser",
+    "\\StatementParser\\bin"
   ],
-  "SelectedNode": "\\Statement Parser\\Form1.cs",
+  "SelectedNode": "\\StatementParser\\Form1.Designer.cs",
   "PreviewInSolutionExplorer": false
 }

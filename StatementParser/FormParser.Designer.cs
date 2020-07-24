@@ -62,6 +62,7 @@
             this.buttonParse.TabIndex = 2;
             this.buttonParse.Text = "&Parse";
             this.buttonParse.UseVisualStyleBackColor = true;
+            this.buttonParse.Click += new System.EventHandler(this.buttonParse_Click);
             // 
             // FormParser
             // 

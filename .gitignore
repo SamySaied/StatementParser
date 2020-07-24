@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/StatementParser/bin/Debug
+/StatementParser/bin
+/StatementParser/obj
+/.vs
